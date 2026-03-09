@@ -80,18 +80,24 @@ Pengguna dapat memilih salah satu menu untuk menjalankan fungsi tertentu dalam s
 ### Screenshot Output
 
 1. Menu Program
+
    ![Menu Program](assets/menu.png)
 2. Tambah Karyawan
+
    ![create_data](assets/create.png)
 3. Tampilkan Karyawan
+
    ![read_data](assets/read_create.png)
 4. Update Karyawan
+
    ![update_data](assets/update.png)
    ![read_data](assets/read_update.png)
 5. Hapus Karyawan
+
    ![delete_data](assets/delete.png)
    ![read_data](assets/read_delete.png)
 6. Exit
+
    ![exit](assets/exit.png)
 ---
 
