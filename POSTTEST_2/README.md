@@ -115,9 +115,11 @@ Pada Posttest 1, atribut pada object Karyawan masih diakses secara langsung.
 
 Contoh pada Posttest 1:
 
-   `k.nama = input.nextLine();
-   k.jabatan = input.nextLine();
-   k.gaji = input.nextDouble();`
+```java
+k.nama = input.nextLine();
+k.jabatan = input.nextLine();
+k.gaji = input.nextDouble();
+```
 
 Pada Posttest 2, akses langsung tersebut diganti menggunakan setter.
 
@@ -205,25 +207,25 @@ Pengguna dapat memilih salah satu menu untuk menjalankan fungsi tertentu dalam s
 
 1. Menu Program
 
-   ![Menu Program](.../assets/Posttest_2/Menu.png)
+   ![Menu Program](../assets/Posttest_2/Menu.png)
 2. Tambah Karyawan
 
-   ![create_data](.../assets/Posttest_2/Create1.png)
-   ![create_data_2](.../assets/Posttest_2/Create2.png)
+   ![create_data](../assets/Posttest_2/Create1.png)
+   ![create_data_2](../assets/Posttest_2/Create2.png)
 3. Tampilkan Karyawan
 
-   ![read_data](.../assets/Posttest_2/read_create.png)
+   ![read_data](../assets/Posttest_2/read_create.png)
 4. Update Karyawan
 
-   ![update_data](.../assets/Posttest_2/Update.png)
-   ![read_data](.../assets/Posttest_2/read_update.png)
+   ![update_data](../assets/Posttest_2/Update.png)
+   ![read_data](../assets/Posttest_2/read_update.png)
 5. Hapus Karyawan
 
-   ![delete_data](.../assets/Posttest_2/Delete.png)
-   ![read_data](.../assets/Posttest_2/read_delete.png)
+   ![delete_data](../assets/Posttest_2/Delete.png)
+   ![read_data](../assets/Posttest_2/read_delete.png)
 6. Exit
 
-   ![exit](.../assets/Posttest_2/Exit.png)
+   ![exit](../assets/Posttest_2/Exit.png)
 ---
 
 # 6. Kesimpulan
