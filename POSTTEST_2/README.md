@@ -57,31 +57,30 @@ Pada Posttest sebelumnya, atribut dalam class Karyawan dideklarasikan tanpa acce
 
 Contoh pada Posttest 1:
 
-   `int id;
-
-   String nama; 
-
-   String jabatan; 
-
-   double gaji;`
+```java
+int id;
+String nama;
+String jabatan;
+double gaji;
+```
 
 Dengan kondisi tersebut, class lain dapat langsung mengubah nilai atribut seperti berikut:
 
-`   k.nama = "Azira";
-
-   k.jabatan = "Manager";`
+```java
+k.nama = "Azira";
+k.jabatan = "Manager";
+```
 
 Cara ini kurang baik karena data dapat dimodifikasi tanpa kontrol.
 
 Pada Posttest 2, atribut tersebut diubah menjadi private.
 
-   `private int id; 
-   
-   private String nama; 
-   
-   private String jabatan; 
-   
-   private double gaji;`
+```java
+private int id;
+private String nama;
+private String jabatan;
+private double gaji;
+```
 
 Dengan menggunakan modifier private, atribut tidak dapat lagi diakses langsung dari class lain.
 
@@ -93,17 +92,21 @@ Karena atribut sekarang bersifat private, maka diperlukan method khusus untuk me
 
 Method Getter:
 
-   `public int getId() {
-      return id;
-   }`
+```java
+public int getId() {
+   return id;
+}
+```
 
 Getter digunakan untuk mengambil nilai atribut.
 
 Method Setter:
 
-   `public void setNama(String nama) {
-      this.nama = nama;
-   }`
+```java
+public void setNama(String nama) {
+   this.nama = nama;
+}
+```
 
 Setter digunakan untuk mengubah nilai atribut.
 
@@ -125,9 +128,11 @@ Pada Posttest 2, akses langsung tersebut diganti menggunakan setter.
 
 Contoh pada Posttest 2:
 
-   `k.setNama(input.nextLine());
-   k.setJabatan(input.nextLine());
-   k.setGaji(input.nextDouble());`
+```java
+k.setNama(input.nextLine());
+k.setJabatan(input.nextLine());
+k.setGaji(input.nextDouble());
+```
 
 Dengan cara ini, perubahan nilai atribut dilakukan melalui method yang telah disediakan.
 
@@ -135,7 +140,9 @@ Untuk membaca nilai atribut, digunakan getter.
 
 Contoh:
 
-   `if (k.getId() == id) `
+```java
+if (k.getId() == id)
+```
 
 Perubahan ini merupakan penerapan konsep encapsulation.
 
