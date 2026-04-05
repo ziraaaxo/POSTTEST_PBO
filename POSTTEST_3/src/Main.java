@@ -42,7 +42,7 @@ public class Main {
         } while (pilihan != 5);
     }
 
-    // ================= CREATE =================
+    // tambah
     static void create() {
         System.out.println("\nJenis Karyawan:");
         System.out.println("1. Karyawan Tetap");
@@ -83,19 +83,19 @@ public class Main {
         }
     }
 
-    // ================= READ =================
+    // tampilkan
     static void read() {
         if (dataKaryawan.isEmpty()) {
             System.out.println("Belum ada data karyawan.");
         } else {
             System.out.println("\n===== DATA KARYAWAN =====");
             for (Karyawan k : dataKaryawan) {
-                k.read(); // polymorphism jalan di sini
+                k.read();
             }
         }
     }
 
-    // ================= UPDATE =================
+    // update
     static void update() {
         System.out.print("Masukkan ID karyawan untuk diupdate: ");
         int id = input.nextInt();
@@ -119,7 +119,7 @@ public class Main {
         System.out.println("ID karyawan tidak ditemukan.");
     }
 
-    // ================= DELETE =================
+    // hapus
     static void delete() {
         System.out.print("Masukkan ID karyawan yang ingin dihapus: ");
         int id = input.nextInt();
