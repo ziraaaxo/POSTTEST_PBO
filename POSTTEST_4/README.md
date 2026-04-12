@@ -153,8 +153,6 @@ Total    : 80,000,000
 
 ---
 
----
-
 ## Kesimpulan
 
 Dengan penerapan polymorphism, program menjadi lebih fleksibel karena satu method dapat memiliki perilaku yang berbeda tergantung pada objek yang digunakan.
